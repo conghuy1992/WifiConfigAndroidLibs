@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="authentication_methods_array">
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>None</item>
+    </string-array>
+</resources>
