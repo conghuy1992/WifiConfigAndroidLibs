@@ -7,6 +7,7 @@ import android.text.format.Formatter;
 
 public class Utils {
     public static String getWifiName(Context context) {
+        // android > 8.0 -> must turn on GPS
         WifiManager wifiManager = (WifiManager) context.getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         WifiInfo wifiInfo = null;
         if (wifiManager != null)
